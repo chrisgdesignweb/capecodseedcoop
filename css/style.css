@@ -212,8 +212,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -225,8 +225,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #29b5e1;
+  border-color: #29b5e1; }
 
 
 /* Forms
@@ -426,15 +426,21 @@ li.selected a {
 }
 
 .topbg {
-  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   overflow: hidden;
-  background-color: #eee;
+  background-color: #f6f6f6;
+  height: 120px;
 }
 
 .seedlist li {
 list-style-type: none;
 display: block;
+}
+
+textarea {
+  width: 500px;
+  height: 150px;
 }
 
 
