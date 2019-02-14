@@ -61,10 +61,19 @@
             <h4 class="hero">Contact Cape Cod Seed Cooperative</h4>
           <p>If you have any questions or ideas, please contact us below: </p>
               
-                <form method="POST" action="http://formspree.io/chrisgillis43@gmail.com">
-                <input type="email" name="email" placeholder="Your email"><br />
-                <textarea name="message" placeholder="Your message" ></textarea> <br />
+                <form name="contact" method="POST" data-netlify="true">
+                <p>
+                <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
                 <button type="submit">Send</button>
+                </p>
                 </form>
         
         </div>
